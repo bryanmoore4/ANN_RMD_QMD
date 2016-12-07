@@ -1,0 +1,16 @@
+Setting up Tensorflow with Anaconda/python on your HPC (with help from Jeffrey Marshall):
+
+
+--Download and install anaconda in your HPC project (I used anaconda 2). I installed using the command:
+bash Anaconda2-4.2.0-Linux-x86_64.sh
+
+--You'll need to then run (you may need to run this in your pbs or bash script each time too): 
+export PATH=/path/to/anaconda/bin:$PATH
+--Use anaconda to set up tensorflow or theano. You can follow the install on the webpages for that (I used tensorflow). Note, in your pbs (or bash) script, you may need the following line to set-up the environment each time (not sure about theano):
+source activate tensorflow
+
+--Now tensorflow (or theano) should be working (check by opening a python shell and running 'import tensorflow').
+
+--Lastly download and install keras; Inside the keras folder run:
+
+python setup.py install
