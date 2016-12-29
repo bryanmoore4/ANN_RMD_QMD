@@ -2,13 +2,7 @@ Note on the files:
 
 randomness testing is to visualize the data that you haveusing a 3d graphical approach
 
-time_series_ANN_Moore.py is a python file that runs with the data on this github repo, and 
-can be run on your machine without the hpc
+ANN_RMD_Moore.py is the python file with all the coding for the neural networks, graphs of results, and data preprocessing. The python file requires arguments, they are listed with you run "ANN_RMD_Moore.py -h" to see how all the features work. You can run a network (LSTM or DNN), choose number of epochs, save the network structure and trained weights, save the graphs of the results on the training and validation data, load a previously trained network, etc.
 
-time_series_ANN_mult_seq_hpc is the most recently update python script that I use on all the data I have in my
-hpc account. Since you don't have all that data, I'll try to get access to everyone
-
-time_series_example_11616 is the LSTM example with the airlines I showed during my presentation on 12/6/16
-if you want to check it out, here is the url http://machinelearningmastery.com/time-series-prediction-lstm-recurrent-neural-networks-python-keras/
 
 the other directory inside this github is just where the data (105 data points in thisrepo) is located.
