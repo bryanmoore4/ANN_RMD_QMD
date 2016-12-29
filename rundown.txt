@@ -2,7 +2,10 @@ Note on the files:
 
 randomness testing is to visualize the data that you haveusing a 3d graphical approach
 
-ANN_RMD_Moore.py is the python file with all the coding for the neural networks, graphs of results, and data preprocessing. The python file requires arguments, they are listed with you run "ANN_RMD_Moore.py -h" to see how all the features work. You can run a network (LSTM or DNN), choose number of epochs, save the network structure and trained weights, save the graphs of the results on the training and validation data, load a previously trained network, etc.
+ANN_RMD_Moore.py is the python file with all the coding for the neural networks, graphs of results, and data preprocessing. 
+The python file requires arguments, they are listed with you run "ANN_RMD_Moore.py -h" to see how all the features work. 
+You can run a network (LSTM or DNN), choose number of epochs, save the network structure and trained weights, save the 
+graphs of the results on the training and validation data, load a previously trained network, etc.
 
 
 the other directory inside this github is just where the data (105 data points in thisrepo) is located.
